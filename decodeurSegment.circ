@@ -6,6 +6,9 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
     </tool>
+    <tool name="Constant">
+      <a name="facing" val="south"/>
+    </tool>
   </lib>
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2">
@@ -98,7 +101,7 @@ end TCL_Generic;&#13;
   </lib>
   <lib desc="#BFH-Praktika" name="10"/>
   <lib desc="#Logisim ITA components" name="11"/>
-  <main name="main"/>
+  <main name="decodeur_SEPT_segm"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -131,85 +134,6 @@ end TCL_Generic;&#13;
     <tool lib="1" name="AND Gate"/>
     <tool lib="1" name="OR Gate"/>
   </toolbar>
-  <circuit name="main">
-    <a name="circuit" val="main"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <wire from="(630,230)" to="(750,230)"/>
-    <wire from="(750,230)" to="(750,240)"/>
-    <wire from="(740,300)" to="(740,310)"/>
-    <wire from="(730,300)" to="(730,310)"/>
-    <wire from="(630,350)" to="(750,350)"/>
-    <wire from="(680,200)" to="(730,200)"/>
-    <wire from="(670,190)" to="(720,190)"/>
-    <wire from="(670,190)" to="(670,330)"/>
-    <wire from="(630,310)" to="(680,310)"/>
-    <wire from="(290,210)" to="(410,210)"/>
-    <wire from="(290,220)" to="(410,220)"/>
-    <wire from="(410,220)" to="(410,230)"/>
-    <wire from="(630,290)" to="(690,290)"/>
-    <wire from="(30,240)" to="(80,240)"/>
-    <wire from="(700,220)" to="(760,220)"/>
-    <wire from="(760,220)" to="(760,310)"/>
-    <wire from="(630,330)" to="(670,330)"/>
-    <wire from="(400,230)" to="(400,250)"/>
-    <wire from="(700,220)" to="(700,250)"/>
-    <wire from="(690,290)" to="(690,320)"/>
-    <wire from="(60,190)" to="(60,210)"/>
-    <wire from="(740,210)" to="(740,240)"/>
-    <wire from="(290,230)" to="(400,230)"/>
-    <wire from="(290,240)" to="(390,240)"/>
-    <wire from="(390,240)" to="(390,270)"/>
-    <wire from="(630,210)" to="(740,210)"/>
-    <wire from="(370,310)" to="(410,310)"/>
-    <wire from="(80,150)" to="(80,180)"/>
-    <wire from="(720,300)" to="(720,320)"/>
-    <wire from="(290,250)" to="(380,250)"/>
-    <wire from="(700,270)" to="(700,310)"/>
-    <wire from="(730,200)" to="(730,240)"/>
-    <wire from="(680,200)" to="(680,310)"/>
-    <wire from="(380,290)" to="(410,290)"/>
-    <wire from="(740,310)" to="(760,310)"/>
-    <wire from="(700,310)" to="(730,310)"/>
-    <wire from="(690,320)" to="(720,320)"/>
-    <wire from="(390,270)" to="(410,270)"/>
-    <wire from="(40,210)" to="(60,210)"/>
-    <wire from="(60,210)" to="(80,210)"/>
-    <wire from="(380,250)" to="(380,290)"/>
-    <wire from="(400,250)" to="(410,250)"/>
-    <wire from="(630,250)" to="(700,250)"/>
-    <wire from="(630,270)" to="(700,270)"/>
-    <wire from="(290,260)" to="(370,260)"/>
-    <wire from="(370,260)" to="(370,310)"/>
-    <wire from="(720,190)" to="(720,240)"/>
-    <wire from="(750,300)" to="(750,350)"/>
-    <comp loc="(630,210)" name="decodeur_SEPT_segm"/>
-    <comp lib="4" loc="(80,160)" name="Counter">
-      <a name="width" val="6"/>
-      <a name="max" val="0x3f"/>
-    </comp>
-    <comp lib="0" loc="(30,240)" name="Clock"/>
-    <comp lib="0" loc="(40,210)" name="Constant"/>
-    <comp lib="1" loc="(80,190)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="0" loc="(80,150)" name="Pin"/>
-    <comp lib="0" loc="(270,270)" name="Splitter">
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-      <a name="bit0" val="5"/>
-      <a name="bit1" val="4"/>
-      <a name="bit2" val="3"/>
-      <a name="bit3" val="2"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="0"/>
-    </comp>
-    <comp lib="5" loc="(720,240)" name="7-Segment Display"/>
-  </circuit>
   <circuit name="decodeur_SEPT_segm">
     <a name="circuit" val="decodeur_SEPT_segm"/>
     <a name="clabel" val=""/>
@@ -398,10 +322,10 @@ end TCL_Generic;&#13;
     <wire from="(120,4100)" to="(120,4200)"/>
     <wire from="(200,1620)" to="(200,1720)"/>
     <wire from="(270,3530)" to="(290,3530)"/>
+    <wire from="(200,7620)" to="(220,7620)"/>
     <wire from="(140,4120)" to="(140,4230)"/>
     <wire from="(280,4500)" to="(300,4500)"/>
     <wire from="(260,5120)" to="(280,5120)"/>
-    <wire from="(200,7620)" to="(220,7620)"/>
     <wire from="(270,7370)" to="(290,7370)"/>
     <wire from="(200,590)" to="(200,890)"/>
     <wire from="(350,2600)" to="(350,2780)"/>
@@ -684,10 +608,10 @@ end TCL_Generic;&#13;
     <wire from="(200,4690)" to="(230,4690)"/>
     <wire from="(140,930)" to="(290,930)"/>
     <wire from="(280,1580)" to="(300,1580)"/>
+    <wire from="(280,4780)" to="(300,4780)"/>
     <wire from="(140,4400)" to="(140,4510)"/>
     <wire from="(370,1360)" to="(370,1660)"/>
     <wire from="(270,4450)" to="(290,4450)"/>
-    <wire from="(280,4780)" to="(300,4780)"/>
     <wire from="(270,6370)" to="(290,6370)"/>
     <wire from="(270,7010)" to="(290,7010)"/>
     <wire from="(200,4460)" to="(200,4570)"/>
