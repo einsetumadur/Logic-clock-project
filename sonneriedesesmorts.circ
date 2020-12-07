@@ -184,7 +184,6 @@ end TCL_Generic;&#13;
     <wire from="(1370,1160)" to="(1440,1160)"/>
     <wire from="(990,1020)" to="(1440,1020)"/>
     <wire from="(980,1010)" to="(1430,1010)"/>
-    <wire from="(1110,1850)" to="(1140,1850)"/>
     <wire from="(2110,1390)" to="(2110,1410)"/>
     <wire from="(1470,550)" to="(2140,550)"/>
     <wire from="(1420,820)" to="(2090,820)"/>
@@ -366,7 +365,6 @@ end TCL_Generic;&#13;
     <wire from="(620,240)" to="(660,240)"/>
     <wire from="(1350,1470)" to="(1350,1540)"/>
     <wire from="(1010,400)" to="(1370,400)"/>
-    <wire from="(1110,1840)" to="(1110,1850)"/>
     <wire from="(1300,1610)" to="(1420,1610)"/>
     <wire from="(1340,1470)" to="(1350,1470)"/>
     <wire from="(1380,1430)" to="(1390,1430)"/>
@@ -397,7 +395,6 @@ end TCL_Generic;&#13;
     <wire from="(880,1570)" to="(990,1570)"/>
     <wire from="(1490,570)" to="(2140,570)"/>
     <wire from="(1490,1130)" to="(2140,1130)"/>
-    <wire from="(450,1840)" to="(1110,1840)"/>
     <wire from="(1660,1400)" to="(1660,1460)"/>
     <wire from="(2120,1330)" to="(2120,1400)"/>
     <wire from="(1340,1480)" to="(1340,1530)"/>
@@ -452,7 +449,6 @@ end TCL_Generic;&#13;
     <wire from="(1000,290)" to="(1220,290)"/>
     <wire from="(1430,390)" to="(2140,390)"/>
     <wire from="(1360,940)" to="(1430,940)"/>
-    <wire from="(450,1840)" to="(450,1880)"/>
     <wire from="(990,1130)" to="(1440,1130)"/>
     <wire from="(1300,1580)" to="(1390,1580)"/>
     <wire from="(850,1500)" to="(850,1690)"/>
@@ -631,7 +627,6 @@ end TCL_Generic;&#13;
       <a name="width" val="6"/>
       <a name="max" val="0x3f"/>
     </comp>
-    <comp lib="5" loc="(440,1880)" name="DipSwitch"/>
     <comp loc="(1360,1830)" name="unit_control"/>
   </circuit>
   <circuit name="cmt">
@@ -1699,16 +1694,15 @@ end TCL_Generic;&#13;
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(1640,350)" to="(1680,350)"/>
-    <wire from="(1270,420)" to="(1270,630)"/>
     <wire from="(1640,370)" to="(1680,370)"/>
-    <wire from="(580,210)" to="(1210,210)"/>
     <wire from="(890,750)" to="(1010,750)"/>
     <wire from="(1250,610)" to="(1250,630)"/>
+    <wire from="(670,290)" to="(860,290)"/>
     <wire from="(530,670)" to="(720,670)"/>
     <wire from="(780,650)" to="(780,1100)"/>
     <wire from="(720,590)" to="(950,590)"/>
     <wire from="(1040,750)" to="(1290,750)"/>
-    <wire from="(710,420)" to="(1270,420)"/>
+    <wire from="(1210,220)" to="(1270,220)"/>
     <wire from="(720,590)" to="(720,670)"/>
     <wire from="(880,350)" to="(990,350)"/>
     <wire from="(1680,370)" to="(1680,620)"/>
@@ -1716,36 +1710,27 @@ end TCL_Generic;&#13;
     <wire from="(1550,570)" to="(1550,620)"/>
     <wire from="(720,670)" to="(930,670)"/>
     <wire from="(1310,570)" to="(1310,630)"/>
-    <wire from="(550,510)" to="(580,510)"/>
-    <wire from="(1240,220)" to="(1270,220)"/>
+    <wire from="(860,290)" to="(860,390)"/>
     <wire from="(1150,230)" to="(1150,270)"/>
-    <wire from="(680,360)" to="(760,360)"/>
-    <wire from="(830,290)" to="(830,340)"/>
     <wire from="(1680,70)" to="(1680,350)"/>
     <wire from="(1230,70)" to="(1230,150)"/>
-    <wire from="(710,380)" to="(760,380)"/>
-    <wire from="(830,360)" to="(830,370)"/>
     <wire from="(780,1100)" to="(1480,1100)"/>
+    <wire from="(1250,630)" to="(1290,630)"/>
     <wire from="(1230,520)" to="(1230,550)"/>
     <wire from="(1210,600)" to="(1210,630)"/>
     <wire from="(950,370)" to="(950,590)"/>
-    <wire from="(790,370)" to="(830,370)"/>
     <wire from="(1150,230)" to="(1210,230)"/>
     <wire from="(890,630)" to="(930,630)"/>
     <wire from="(1150,630)" to="(1210,630)"/>
     <wire from="(950,370)" to="(990,370)"/>
-    <wire from="(670,290)" to="(780,290)"/>
-    <wire from="(710,380)" to="(710,420)"/>
-    <wire from="(580,210)" to="(580,510)"/>
+    <wire from="(1210,220)" to="(1210,230)"/>
     <wire from="(1150,270)" to="(1290,270)"/>
-    <wire from="(860,350)" to="(860,390)"/>
     <wire from="(780,650)" to="(930,650)"/>
     <wire from="(880,350)" to="(880,520)"/>
     <wire from="(1550,620)" to="(1680,620)"/>
     <wire from="(1290,630)" to="(1290,750)"/>
     <wire from="(1230,70)" to="(1680,70)"/>
     <wire from="(1480,620)" to="(1550,620)"/>
-    <wire from="(800,290)" to="(830,290)"/>
     <wire from="(880,520)" to="(1230,520)"/>
     <wire from="(860,390)" to="(990,390)"/>
     <wire from="(890,630)" to="(890,750)"/>
@@ -1754,21 +1739,10 @@ end TCL_Generic;&#13;
     <wire from="(1290,270)" to="(1290,630)"/>
     <wire from="(1210,350)" to="(1420,350)"/>
     <wire from="(1290,630)" to="(1310,630)"/>
-    <wire from="(1270,630)" to="(1290,630)"/>
-    <wire from="(1250,630)" to="(1270,630)"/>
     <comp loc="(1640,350)" name="partition"/>
-    <comp lib="1" loc="(1240,220)" name="OR Gate">
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(860,350)" name="AND Gate">
-      <a name="size" val="30"/>
-    </comp>
     <comp lib="0" loc="(530,670)" name="Clock">
       <a name="highDuration" val="8"/>
       <a name="lowDuration" val="8"/>
-    </comp>
-    <comp lib="0" loc="(550,510)" name="Pin">
-      <a name="label" val="RST_DIP"/>
     </comp>
     <comp loc="(1310,570)" name="fin">
       <a name="facing" val="west"/>
@@ -1778,9 +1752,6 @@ end TCL_Generic;&#13;
       <a name="output" val="true"/>
       <a name="width" val="4"/>
       <a name="label" val="ad_freq"/>
-    </comp>
-    <comp lib="1" loc="(800,290)" name="NOT Gate">
-      <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(1230,550)" name="AND Gate">
       <a name="facing" val="north"/>
@@ -1792,12 +1763,6 @@ end TCL_Generic;&#13;
     <comp loc="(1210,350)" name="cmt"/>
     <comp lib="0" loc="(670,290)" name="Pin">
       <a name="label" val="EN"/>
-    </comp>
-    <comp lib="0" loc="(680,360)" name="Constant">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(790,370)" name="AND Gate">
-      <a name="size" val="30"/>
     </comp>
     <comp lib="0" loc="(1270,220)" name="Pin">
       <a name="facing" val="west"/>
